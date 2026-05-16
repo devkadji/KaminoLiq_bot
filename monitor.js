@@ -65,6 +65,9 @@ async function main() {
   if (!BOT_TOKEN || !CHAT_ID) {
     throw new Error('TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID must be set');
   }
+  // DEBUG: secret length + char codes of last 2 chars (safe to log, GitHub won't see secret bytes)
+  const tail = BOT_TOKEN.slice(-2);
+  console.log(`debug: BOT_TOKEN.length=${BOT_TOKEN.length} tailCodes=[${[...tail].map(c=>c.charCodeAt(0)).join(',')}] CHAT_ID.length=${CHAT_ID.length}`);
 
   const rpc = createSolanaRpc(RPC);
   const market = await KaminoMarket.load(rpc, MARKET, 450);
