@@ -3,14 +3,14 @@
     "open": false,
     "available": 0,
     "symbol": "USDG",
-    "utilizationPct": 96.39,
-    "checkedAt": "2026-05-16T11:52:23.169Z"
+    "utilizationPct": 95.17,
+    "checkedAt": "2026-05-16T12:09:51.713Z"
   },
   "ONyc/USDC Multiply": {
-    "open": true,
-    "available": 1497701.829604826,
+    "open": false,
+    "available": 0,
     "symbol": "USDC",
-    "utilizationPct": 85.96,
-    "checkedAt": "2026-05-16T11:52:23.480Z"
+    "utilizationPct": 90.75,
+    "checkedAt": "2026-05-16T12:09:51.715Z"
   }
 }
