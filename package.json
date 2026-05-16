@@ -1,0 +1,20 @@
+{
+  "name": "kamino-liquidity-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram alerts when Kamino multiply borrow liquidity becomes available",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "@kamino-finance/klend-sdk": "7.3.22",
+    "@solana/kit": "2.3.0"
+  },
+  "overrides": {
+    "@kamino-finance/farms-sdk": "3.2.24"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
