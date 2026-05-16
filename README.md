@@ -1,3 +1,19 @@
+> ## ⚠️ Superseded — see [`devkadji/KaminoLiq_worker`](https://github.com/devkadji/KaminoLiq_worker)
+>
+> This repo's GitHub Actions cron was **migrated to a Cloudflare Worker** because
+> GitHub Actions scheduled workflows drift by 10–60+ minutes, missing short-lived
+> liquidity windows. The Worker fires reliably every 5 minutes **and** handles
+> interactive Telegram buttons.
+>
+> - **Live bot**: still `@KaminoLiq_bot` — token and chat id unchanged
+> - **Worker URL**: `https://kamino-liquidity-worker.deosax.workers.dev`
+> - **Repo with current code**: <https://github.com/devkadji/KaminoLiq_worker>
+> - **Workflow file**: deleted from `main`; no scheduled runs fire from this repo anymore
+>
+> The Node.js code below is kept for reference but is no longer running.
+>
+> ---
+
 # Kamino liquidity bot
 
 Telegram alerts when borrow liquidity opens up on two Kamino multiply products:
