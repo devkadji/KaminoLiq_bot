@@ -1,16 +1,16 @@
 {
   "ONyc/USDG Multiply": {
-    "open": false,
+    "open": true,
     "available": 0,
     "symbol": "USDG",
-    "utilizationPct": 96.35,
-    "checkedAt": "2026-05-16T11:43:10.703Z"
+    "utilizationPct": 96.28,
+    "checkedAt": "2026-05-16T11:50:38.304Z"
   },
   "ONyc/USDC Multiply": {
-    "open": false,
-    "available": 0,
+    "open": true,
+    "available": 1497702.9119291247,
     "symbol": "USDC",
-    "utilizationPct": 93.39,
-    "checkedAt": "2026-05-16T11:43:10.704Z"
+    "utilizationPct": 85.96,
+    "checkedAt": "2026-05-16T11:50:38.921Z"
   }
 }
